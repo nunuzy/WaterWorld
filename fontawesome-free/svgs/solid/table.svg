@@ -1,0 +1,22 @@
+package Crypt::SSLeay;
+
+use strict;
+use vars '$VERSION';
+$VERSION = '0.64';
+
+eval {
+    require XSLoader;
+    XSLoader::load('Crypt::SSLeay', $VERSION);
+    1;
+}
+or do {
+    require DynaLoader;
+    use vars '@ISA'; # not really locally scoped, it just looks that way
+    @ISA = qw(DynaLoader);
+    bootstrap Crypt::SSLeay $VERSION;
+};
+
+use vars qw(%CIPHERS);
+%CIPHERS = (
+   'NULL-MD5'     => "No encryption with a MD5 MAC",
+   'RC4-MD5'      => "128 bit RC4 encr

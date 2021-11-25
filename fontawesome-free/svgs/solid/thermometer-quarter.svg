@@ -1,0 +1,31 @@
+package Data::Printer::Filter::DB;
+use strict;
+use warnings;
+use Data::Printer::Filter;
+use Term::ANSIColor;
+
+filter 'DBI::db', sub {
+    my ($dbh, $p) = @_;
+    my $name = $dbh->{Driver}{Name};
+
+    my $string = "$name Database Handle ("
+               . ($dbh->{Active} 
+                  ? colored('connected', 'bright_green')
+                  : colored('disconnected', 'bright_red'))
+               . ') {'
+               ;
+    indent;
+    my %dsn = split( /[;=]/, $dbh->{Name} );
+    foreach my $k (keys %dsn) {
+        $string .= newline . "$k: " . $dsn{$k};
+    }
+    $string .= newline . 'Auto Commit: ' . $dbh->{AutoCommit};
+
+    my $kids = $dbh->{Kids};
+    $string .= newline . 'Statement Handles: ' . $kids;
+    if ($kids > 0) {
+        $string .= ' (' . $dbh->{ActiveKids} . ' active)';
+    }
+
+    if ( defined $dbh->err ) {
+        $string .= newlin

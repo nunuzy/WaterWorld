@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <link rel="stylesheet" href="fontawesome-free/css/all.min.css" />
+
+  <link href="images/logo/logo waterworld.png" rel="icon" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Water World</title>
+</head>
+
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"> WATER WORLD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-4">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            <img src="images/searchicon.svg" width="18" height="18" alt="" />
+          </button>
+        </form> -->
+
+        
+        <!-- <div class="icon mt-2">
+            <h5>
+              <i
+                class="fas fa-shopping-cart text-light ms-3"
+                data-bs-toggle="tooltip"
+                title="Keranjang Belanja"
+              ></i>
+              <i
+                class="fas fa-bell text-light ms-3"
+                data-bs-toggle="tooltip"
+                title="Notifikasi"
+              ></i>
+            </h5>
+          </div> -->
+      </div>
+    </div>
+  </nav>
+
+  <div class="mt-5"></div>
+  <!-- <div class="col-md-2">
+        <ul class="list-group list-group-flush p-2 pt-4">
+          <li class="list-group-item bg-primary">
+            <i class="fas fa-list"></i> KATEGORI PRODUK
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-angle-right"></i> Ikan
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-angle-right"></i> Pakan Ikan
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-angle-right"></i> Aquarium
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-angle-right"></i> Perlengkapan Aquarium
+          </li>
+        </ul>
+      </div> -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slider/slidehome.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider/slide2.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider/slide3.png" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h4 class="text-center fw-bold m-5" id="product" >PRODUK TERBARU</h4>
+
+  <div class="row p-4 ms-5">
+    <div class="card me-2 ms-2" style="width: 18rem">
+      <img src="images/produk/arwanasilver.png" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Arwana Silver</h5>
+        <p class="card-text">Rp100.000,00</p>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star-half-alt text-warning"></i>
+        <i class="far fa-star text-warning"></i><br />
+        <a href="#" class="btn btn-outline-primary mt-2 me-2" data-bs-target="#detail" data-bs-toggle="modal">Detail</a>
+        <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Mau%20Order" target="blank"
+          class="btn btn-success mt-2">Order</a>
+      </div>
+    </div>
+    <div class="card me-2 ms-2" style="width: 18rem">
+      <img src="images/produk/pbas.png" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Peacock Bass</h5>
+        <p class="card-text">Rp300.000,00</p>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star-half-alt text-warning"></i>
+        <i class="far fa-star text-warning"></i><br />
+        <a href="#" class="btn btn-outline-primary mt-2 me-2" data-bs-target="#detail2"
+          data-bs-toggle="modal">Detail</a>
+        <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Mau%20Order" target="blank"
+          class="btn btn-success mt-2">Order</a>
+      </div>
+    </div>
+    <div class="card me-2 ms-2" style="width: 18rem">
+      <img src="images/produk/pbassorinocoo.png" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Peacock Bass Orinocoo</h5>
+        <p class="card-text">Rp300.000,00</p>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star-half-alt text-warning"></i>
+        <i class="far fa-star text-warning"></i><br />
+        <a href="#" class="btn btn-outline-primary mt-2 me-2" data-bs-target="#detail3"
+          data-bs-toggle="modal">Detail</a>
+        <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Mau%20Order" target="blank"
+          class="btn btn-success mt-2">Order</a>
+
+      </div>
+    </div>
+    <div class="card me-2 ms-2" style="width: 18rem">
+      <img src="images/produk/oscaralbino.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Oscar Albino</h5>
+        <p class="card-text">Rp300.000,00</p>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star-half-alt text-warning"></i>
+        <i class="far fa-star text-warning"></i><br />
+        <a href="#" class="btn btn-outline-primary mt-2 me-2" data-bs-target="#detail4"
+          data-bs-toggle="modal">Detail</a>
+        <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Mau%20Order" target="blank"
+          class="btn btn-success mt-2">Order</a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-2 ms-5 p-4">
+    <div class="card me-2 ms-2" style="width: 18rem">
+      <img src="images/produk/oscaroren.png" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Oscar Orange</h5>
+        <p class="card-text">Rp300.000,00</p>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star-half-alt text-warning"></i>
+        <i class="far fa-star text-warning"></i><br />
+        <a href="#" class="btn btn-outline-primary mt-2 me-2" data-bs-target="#detail5"
+          data-bs-toggle="modal">Detail</a>
+        <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Mau%20Order" target="blank"
+          class="btn btn-success mt-2">Order</a>
+
+      </div>
+    </div>
+    <div class="card me-2 ms-2" style="width: 18rem">
+      <img src="images/produk/oscarred.png" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Oscar Red</h5>
+        <p class="card-text">Rp300.000,00</p>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star-half-alt text-warning"></i>
+        <i class="far fa-star text-warning"></i><br />
+        <a href="#" class="btn btn-outline-primary mt-2 me-2" data-bs-target="#detail6"
+          data-bs-toggle="modal">Detail</a>
+        <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Mau%20Order" target="blank"
+          class="btn btn-success mt-2">Order</a>
+
+      </div>
+    </div>
+    <div class="card me-2 ms-2" style="width: 18rem">
+      <img src="images/produk/oscaritem.png" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Oscar Black</h5>
+        <p class="card-text">Rp300.000,00</p>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star-half-alt text-warning"></i>
+        <i class="far fa-star text-warning"></i><br />
+        <a href="#" class="btn btn-outline-primary mt-2 me-2" data-bs-target="#detail7"
+          data-bs-toggle="modal">Detail</a>
+        <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Mau%20Order" target="blank"
+          class="btn btn-success mt-2">Order</a>
+
+      </div>
+    </div>
+    <div class="card me-2 ms-2 " style="width: 18rem">
+      <img src="images/produk/maskoki.png" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Mas Koki</h5>
+        <p class="card-text">Rp80.000,00</p>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star text-warning"></i>
+        <i class="fas fa-star-half-alt text-warning"></i>
+        <i class="far fa-star text-warning"></i><br />
+        <a href="#" class="btn btn-outline-primary mt-2 me-2" data-bs-target="#detail8"
+          data-bs-toggle="modal">Detail</a>
+        <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Mau%20Order" target="blank"
+          class="btn btn-success mt-2">Order</a>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="detail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Detail Produk
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/produk/arwanasilver.png" style="width: 350px" alt="" />
+            </div>
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tr>
+                  <th>Nama Produk</th>
+                  <td>Arwana Silver</td>
+                </tr>
+                <tr>
+                  <th>Ukuran</th>
+                  <td>20 cm</td>
+                </tr>
+               
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp100.000,00</td>
+                </tr>
+                <tr>
+                  <th>Biaya Ongkir</th>
+                  <td>Menyesuaikan Lokasi</td>
+                </tr>
+                <tr>
+                  <th>Rating</th>
+                  <td>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Saya%20Mau%20Beli"
+            target="blank"><button type="button" class="btn btn-primary"> Buy</button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="detail2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Detail Produk
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/produk/pbas.png" style="width: 350px" alt="" />
+            </div>
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tr>
+                  <th>Nama Produk</th>
+                  <td>Peacock Bass</td>
+                </tr>
+                <tr>
+                  <th>Ukuran</th>
+                  <td>20 cm</td>
+                </tr>
+               
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp300.000,00</td>
+                </tr>
+                <tr>
+                  <th>Biaya Ongkir</th>
+                  <td>Menyesuaikan Lokasi</td>
+                </tr>
+                <tr>
+                  <th>Rating</th>
+                  <td>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Saya%20Mau%20Beli"
+            target="blank"><button type="button" class="btn btn-primary"> Buy</button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="detail3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Detail Produk
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/produk/pbassorinocoo.png" style="width: 350px" alt="" />
+            </div>
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tr>
+                  <th>Nama Produk</th>
+                  <td>Peacock Bass Orinocoo</td>
+                </tr>
+                <tr>
+                  <th>Ukuran</th>
+                  <td>20 cm</td>
+                </tr>
+                
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp300.000,00</td>
+                </tr>
+                <tr>
+                  <th>Biaya Ongkir</th>
+                  <td>Menyesuaikan Lokasi</td>
+                </tr>
+                <tr>
+                  <th>Rating</th>
+                  <td>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Saya%20Mau%20Beli"
+            target="blank"><button type="button" class="btn btn-primary"> Buy</button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="detail4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Detail Produk
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/produk/oscaralbino.jpg" style="width: 350px" alt="" />
+            </div>
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tr>
+                  <th>Nama Produk</th>
+                  <td>Oscar Albino</td>
+                </tr>
+                <tr>
+                  <th>Ukuran</th>
+                  <td>20 cm</td>
+                </tr>
+                
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp300.000,00</td>
+                </tr>
+                <tr>
+                  <th>Biaya Ongkir</th>
+                  <td>Menyesuaikan Lokasi</td>
+                </tr>
+                <tr>
+                  <th>Rating</th>
+                  <td>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Saya%20Mau%20Beli"
+            target="blank"><button type="button" class="btn btn-primary"> Buy</button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="detail5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Detail Produk
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/produk/oscaroren.png" style="width: 350px" alt="" />
+            </div>
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tr>
+                  <th>Nama Produk</th>
+                  <td>Oscar Orange</td>
+                </tr>
+                <tr>
+                  <th>Ukuran</th>
+                  <td>20 cm</td>
+                </tr>
+                
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp300.000,00</td>
+                </tr>
+                <tr>
+                  <th>Biaya Ongkir</th>
+                  <td>Menyesuaikan Lokasi</td>
+                </tr>
+                <tr>
+                  <th>Rating</th>
+                  <td>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Saya%20Mau%20Beli"
+            target="blank"><button type="button" class="btn btn-primary"> Buy</button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="detail6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Detail Produk
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/produk/oscarred.png" style="width: 350px" alt="" />
+            </div>
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tr>
+                  <th>Nama Produk</th>
+                  <td>Oscar Red</td>
+                </tr>
+                <tr>
+                  <th>Ukuran</th>
+                  <td>30 cm</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp300.000,00</td>
+                </tr>
+                <tr>
+                  <th>Biaya Ongkir</th>
+                  <td>Menyesuaikan Lokasi</td>
+                </tr>
+                <tr>
+                  <th>Rating</th>
+                  <td>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Saya%20Mau%20Beli"
+            target="blank"><button type="button" class="btn btn-primary"> Buy</button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="detail7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Detail Produk
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/produk/oscaritem.png" style="width: 350px" alt="" />
+            </div>
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tr>
+                  <th>Nama Produk</th>
+                  <td>Oscar Black</td>
+                </tr>
+                <tr>
+                  <th>Ukuran</th>
+                  <td>30 cm</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp300.000,00</td>
+                </tr>
+                <tr>
+                  <th>Biaya Ongkir</th>
+                  <td>Menyesuaikan Lokasi</td>
+                </tr>
+                <tr>
+                  <th>Rating</th>
+                  <td>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Saya%20Mau%20Beli"
+            target="blank"><button type="button" class="btn btn-primary"> Buy</button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="detail8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            Detail Produk
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/produk/maskoki.png" style="width: 350px" alt="" />
+            </div>
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tr>
+                  <th>Nama Produk</th>
+                  <td>Mas Koki</td>
+                </tr>
+                <tr>
+                  <th>Ukuran</th>
+                  <td>20 cm</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp80.000,00</td>
+                </tr>
+                <tr>
+                  <th>Biaya Ongkir</th>
+                  <td>Menyesuaikan Lokasi</td>
+                </tr>
+                <tr>
+                  <th>Rating</th>
+                  <td>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning"></i>
+                    <i class="far fa-star text-warning"></i>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+            Cancel
+          </button>
+          <a href="https://api.whatsapp.com/send?phone=+62 813-2749-4176&text=Hallo%20Kak!%20Saya%20Mau%20Beli"
+            target="blank"><button type="button" class="btn btn-primary"> Buy</button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+
+  <section class="text-center m-5" id="contact">
+    <div class="container">
+        <div class="mb-5">
+            <h3 class="fw-bold">Contact Us</h3>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="info-box ">
+                            <h4>Address</h4>
+                            <p>Desa Karangtalun Kidul, Kec. Purwojati, Kab. Banyumas <br> Jawa Tengah</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="info-box mt-4">
+                            <h4>Email</h4>
+                            <p> infowaterworld@gmail.com<br /></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="info-box mt-4">
+                            <h4>Telephone</h4>
+                            <p>0813-2749-4176</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.781096395171!2d109.1000901147763!3d-7.489405894597713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMjknMjEuOSJTIDEwOcKwMDYnMDguMiJF!5e0!3m2!1sid!2sid!4v1630054065619!5m2!1sid!2sid" width="2800" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section> 
+
+  <!-- <footer class="bg-light text-dark p-5 mt-5">
+    <div class="row text-center ms-6">
+      <div class="col-md-5">
+        <h5>HUBUNGI KAMI</h5>
+
+        <i class="fab fa-whatsapp me-2"></i>0812-2512-2748
+        <br />
+        <i class="fas fa-envelope me-2"></i>info.waterworld@gmail.com
+      </div>
+
+      <div class="col-md-6">
+        <h5>LOKASI</h5>
+        <p>Karangtalun Kidul, Kec. Purwojati, Kab. Banyumas, Jawa Tengah</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.781096395171!2d109.1000901147763!3d-7.489405894597713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMjknMjEuOSJTIDEwOcKwMDYnMDguMiJF!5e0!3m2!1sid!2sid!4v1630054065619!5m2!1sid!2sid"
+          width="400" height="200" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </footer> -->
+
+  <!-- <div class="copyright text-center text-white fw-bold bg-primary p-2">
+    <p>
+      Developed by Aulia Nukhi Fadillah Copyright
+      <i class="far fa-copyright">2021</i>
+    </p>
+  </div> -->
+
+  <div class="container d-md-flex py-4">
+    <div class="mr-md-auto text-center text-md-left">
+      <div class="copyright">&copy; Copyright <strong><span>Water World</span></strong>. All Rights Reserved</div>
+
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/ -->Developed
+        by <a>Aulia Nukhi Fadillah</a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

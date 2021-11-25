@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cobalah</title>
+</head>
+<body>
+
+
+<div class="owl-stage">
+                            <div class="owl-item">
+                                <div class="row item">
+                                    <div class="col-md-4 col-lg-3 col-sm-6 mt-3">
+                                    <div class="col-6 col-md-4 col-lg-3 col-sm-6 mt-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img class="img-fluid" src="/assets/img/catalog_book/horsemuseum.png" alt="">
+                                                <h6 class="mt-4">Dr. Seuss’s</h6>
+                        
